@@ -155,6 +155,7 @@ static struct quirk_entry quirk_asus_zenbook_duo_kbd = {
 };
 
 static struct quirk_entry quirk_asus_gx651ar = {
+	.wmi_backlight_set_devstate = true,
 	.ignore_wlan_enable_event = true,
 };
 
